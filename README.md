@@ -22,7 +22,7 @@ python src/pipeline.py
 (Your own notes: cleaning, idempotency, logging, SQL joins)
 
 ### Notes
-Why is extract a separate function from transform?
-What does idempotent mean, and which line of code makes our load idempotent?
-When do you use HAVING instead of WHERE?
-Why did we convert order_date to a real date type before the monthly query?
+- Why is extract a separate function from transform?
+- What does idempotent mean, and which line of code makes our load idempotent?
+- When do you use HAVING instead of WHERE?
+- Why did we convert order_date to a real date type before the monthly query?
