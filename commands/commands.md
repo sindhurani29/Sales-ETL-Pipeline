@@ -20,3 +20,6 @@ print("missing qty:", df["quantity"].isna().sum())
 print("negative qty:", (df["quantity"] < 0).sum())
 print("missing date:", df["order_date"].isna().sum())
 exit()
+
+Run sql
+sqlite3 -header -column sales.db < sql/analysis.sql
